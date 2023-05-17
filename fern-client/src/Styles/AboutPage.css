@@ -28,7 +28,7 @@
 {
     width: 400px;
     height: 500px;
-    object-fit: contain;
+    object-fit: cover;
 }
 .about-text-block 
 {
