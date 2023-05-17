@@ -4,11 +4,13 @@
     align-items: center;
     justify-content: space-around;
     gap: 200px;
-    border-bottom: solid 3px #537512;
+    border-bottom: solid 3px #87c01f;
     width: 1400px;
     height: 80px;
     margin-top: 20px;
     padding-bottom: 20px;
+    align-self:center;
+    z-index: 1;
 }
 .nav-logo
 {
@@ -26,7 +28,7 @@
 }
 .logo-text
 {
-    color: #537512;
+    color: #87c01f;;
     font-size: 76px;
     font-weight: 400;
 }
@@ -38,19 +40,16 @@
     list-style: none;
     gap: 30px;
     padding-top: 35px;
-
 }
 .nav-item
 {
-    color: #537512;
+    color: #87c01f;
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
 }
-.nav-item:hover
-{
-    color:#87c01f;
-}
+.nav-item:hover{color:#afed3b;}
+.active{color:#afed3b;}
 .nav-options
 {
     display:flex;
@@ -61,23 +60,23 @@
 {
     color:white;
 }
-.nav-order
+.nav-button
 {
     width: 130px;
     height: 50px;
-    border: solid 3px #537512;
+    border: solid 3px #87c01f;
     border-radius: 15px;
     font-size: 20px;
-    background-color: #537512;
+    background-color: #87c01f;
     color: white;
     font-weight: 500;
     text-decoration: none;
 }
-.nav-order:hover
+.nav-button:hover
 {
     cursor: pointer;
-    background-color: #87c01f;
-    border-color:#87c01f;
+    background-color: #afed3b;
+    border-color:#afed3b;
 }
 .nav-cart
 {
@@ -95,4 +94,5 @@
     height: 50px;
     background: url("../Assets/Icons/shopping-cart-3041_light.png");
     background-size: contain;
+    cursor: pointer;
 }

@@ -2,6 +2,7 @@ import React from "react"
 import "../Styles/styles.js"
 import {Link} from "react-router-dom"
 import {FernLogo} from "../Assets/assets.js"
+import {NavLink} from "react-router-dom";
 
 function NavBar() {
   return (
@@ -13,13 +14,13 @@ function NavBar() {
         </Link>
         
       <ul className ="nav-links">
-        <li><Link to = "/" className ="nav-item">Головна</Link></li>
-        <li><Link to = "/About" className ="nav-item">Про нас</Link></li>
-        <li><Link to = "/Menu" className ="nav-item">Меню</Link></li>
-        <li><Link to = "/Contact" className ="nav-item">Контакти</Link></li>
+        <li><NavLink to = "/" className ="nav-item" activeClassName = "active" exact>Головна</NavLink></li>
+        <li><NavLink to = "/About" className ="nav-item" activeClassName = "active" exact>Про нас</NavLink></li>
+        <li><NavLink to = "/Menu" className ="nav-item" activeClassName = "active" exact >Меню</NavLink></li>
+        <li><NavLink to = "/Contact" className ="nav-item" activeClassName = "active" exact>Контакти</NavLink></li>
         <li>
           <div className = "nav-options">
-          <Link to = "/Menu"><button className = "nav-order">Замовити</button></Link>
+          <Link to = "/Menu"><button className = "nav-button">Замовити</button></Link>
           <Link to = "/Menu"><button className = "nav-cart"></button></Link>
           </div>
         </li>
