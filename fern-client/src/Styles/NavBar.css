@@ -12,26 +12,6 @@
     align-self:center;
     z-index: 1;
 }
-.nav-logo
-{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    align-items: center;
-    text-decoration: none;
-}
-.logo-icon
-{
-    width: 65px;
-    height: 65px;
-    object-fit: cover;
-}
-.logo-text
-{
-    color: #87c01f;;
-    font-size: 76px;
-    font-weight: 400;
-}
 .nav-links
 {
     display:flex;

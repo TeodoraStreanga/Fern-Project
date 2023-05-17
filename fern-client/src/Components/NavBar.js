@@ -1,17 +1,14 @@
 import React from "react"
 import "../Styles/styles.js"
 import {Link} from "react-router-dom"
-import {FernLogo} from "../Assets/assets.js"
-import {NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom"
+import Logo from "./Logo.js"
 
 function NavBar() {
   return (
     <div className="navBar">
 
-        <Link to = "/" className = "nav-logo">
-            <img className = "logo-icon" src= {FernLogo} alt="logo"></img>
-            <span className = "logo-text">Fern</span>
-        </Link>
+    <Link to = "/" style ={{textDecoration:"none"}}><Logo></Logo></Link>
         
       <ul className ="nav-links">
         <li><NavLink to = "/" className ="nav-item" activeClassName = "active" exact>Головна</NavLink></li>
