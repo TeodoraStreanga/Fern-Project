@@ -15,3 +15,9 @@
     background-position-y:-330px;
     background-attachment: fixed;
 } 
+.home{height: 600px;}
+.social-icon
+{
+    width: 45px;
+    height: 45px;
+}

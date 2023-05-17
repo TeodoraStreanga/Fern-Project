@@ -31,7 +31,7 @@ function Footer() {
                 <div className = "foot-icon time"></div>
                 <span>
                   Понеділок - П'ятниця, 8:00 AM - 22:00 PM <br/>
-                  Субота - Неділя, 8:00 AM - 22:00 PM
+                  Субота - Неділя, 8:00 AM - 20:00 PM
                 </span>
               </li>
               <li className = "foot-item">

@@ -4,7 +4,7 @@
     height: 230px;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     gap: 150px;
     padding-top: 50px;
 }
@@ -31,11 +31,6 @@
 {
     flex-direction: row;
     gap: 20px;
-}
-.social-icon
-{
-    width: 45px;
-    height: 45px;
 }
 .social-icon:hover
 {

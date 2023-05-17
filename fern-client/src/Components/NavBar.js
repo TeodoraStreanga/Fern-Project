@@ -18,6 +18,7 @@ function NavBar() {
         <li>
           <div className = "nav-options">
           <Link to = "/Menu"><button className = "nav-button">Замовити</button></Link>
+          <Link to = "/Menu"><button className = "nav-button">Бронювання</button></Link>
           <Link to = "/Menu"><button className = "nav-cart"></button></Link>
           </div>
         </li>
