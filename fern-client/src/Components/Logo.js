@@ -1,5 +1,5 @@
 import React from "react"
-import "../Styles/Logo.css"
+import "../Styles/styles.js"
 import {FernLogo} from "../Assets/assets.js"
 
 function Logo() {

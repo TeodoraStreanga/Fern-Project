@@ -1,0 +1,110 @@
+.menu-page
+{
+    display: flex;
+    flex-direction: column;
+}
+.menu-panel
+{
+    position: relative;
+    top: -100px;
+    width: 1400px;
+    border-top: dashed 3px  #3E4001;
+    border-bottom: dashed 3px  #3E4001;
+    align-self: center;
+
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+.menu-title
+{
+    font-size: 50px;
+    font-weight:500;
+    color: #87c01f;
+    border-bottom: solid 3px #87c01f;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.category-select
+{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    background: url('../../Assets/Images/green-vegetables_edit2.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menu-select-button
+{
+    border: none;
+    background: none;
+    font-size: 30px;
+    color: #87c01f;
+}
+.menu-select-button:hover
+{
+    cursor: pointer;
+    color: #afed3b;
+}
+.clicked{color: #afed3b;}
+.menu-viewer
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0;
+    list-style: none;
+    gap: 80px;
+    justify-content: center;
+}
+.dish-field
+{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    width: 630px;
+    height: 250px;
+    border-top: solid 3px #87c01f;
+    border-bottom: solid 3px #87c01f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dish-image
+{
+    width: 250px;
+    object-fit: cover;
+}
+.dish-info
+{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.dish-title
+{
+    font-size: 35px;
+    font-weight:500;
+    color: #87c01f;
+}
+.dish-desc
+{
+    width: 360px;
+    height: 100px;
+    overflow: hidden;
+    font-size: 20px;
+    text-align:justify;
+}
+.dish-price
+{
+    font-size: 30px;
+    color: #87c01f;
+}

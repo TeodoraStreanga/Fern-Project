@@ -1,0 +1,105 @@
+.home-page
+{
+    display: flex;
+    flex-direction: column;
+}
+.header-block
+{
+    position:relative;
+    width: 1000px;
+    top: 220px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.header-title
+{
+    color: #87c01f;
+    font-size: 70px;
+    font-weight: 500;
+}
+.subtitle
+{
+    font-size: 25px;
+    font-weight: normal;
+}
+.header-icons
+{
+    list-style: none;
+    padding: 0;
+    display:flex;
+    gap: 20px;
+}
+.home-panel
+{
+    position: relative;
+    top: -100px;
+    width: 1400px;
+    border-top: dashed 3px  #3E4001;
+    border-bottom: dashed 3px  #3E4001;
+    align-self: center;
+
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;  
+    align-items: center;
+}
+.home-title 
+{
+    font-size: 50px;
+    font-weight:500;
+    width: 1400px;
+    color: #87c01f;
+    border-bottom: solid 3px #87c01f;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.home-text
+{
+    width: 704px;
+    font-size: 20px; 
+    text-align: center; 
+    line-height: 1.5;
+}
+.option-panels
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1400px;
+}
+.option-panel
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color:#87c01f;
+    justify-content: center;
+    height: 200px;
+}
+.option-panel-title
+{
+    font-size: 30px;
+    font-weight: 500;
+}
+.booking
+{
+    background: url('../../Assets/Images/plant-segevKitchenGarden-3_edit2.jpg');
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.order
+{
+    background: url('../../Assets/Images/green-vegetables_edit2.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

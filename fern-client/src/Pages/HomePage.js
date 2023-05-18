@@ -20,19 +20,23 @@ function HomePage() {
       </div>
       <div className = "home-panel">
           <div className = "home-title">Про нас</div>
-          <div className = "home-text">Fern - затишний куточок природи у великому місті. Натхнені природою, ми робимо все щоб наші відвідувачі почували себе роpcлаблено</div>
-      </div>
-      <div className = "option-panels">
-        <div className = "option-panel booking">
-          <div className = "option-panel-title"> Чарівна атмосфера чекає!</div>
-          <Link to = "/Menu"><button className = "nav-button">Бронювати</button></Link>
-        </div>
+          <div className = "home-text">
+            Fern - затишний куточок природи у великому місті. Натхнені природою, ми робимо все щоб наші відвідувачі почували себе роpcлаблено
+          </div>
+          
+          <div className = "option-panels">
+            <div className = "option-panel booking">
+              <div className = "option-panel-title"> Чарівна атмосфера чекає!</div>
+              <Link to = "/Menu"><button className = "nav-button">Бронювати</button></Link>
+            </div>
 
-        <div className = "option-panel order">
-          <div className = "option-panel-title">Скуштуйте найкращі з наших страв сьогодні!</div>
-          <Link to = "/Menu"><button className = "nav-button">Меню</button></Link>
-        </div>
+            <div className = "option-panel order">
+              <div className = "option-panel-title">Скуштуйте найкращі з наших страв сьогодні!</div>
+              <Link to = "/Menu"><button className = "nav-button">Меню</button></Link>
+            </div>
+          </div>
       </div>
+      
     </div>
   );
 }

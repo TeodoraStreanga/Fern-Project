@@ -11,15 +11,14 @@ function NavBar() {
     <Link to = "/" style ={{textDecoration:"none"}}><Logo></Logo></Link>
         
       <ul className ="nav-links">
-        <li><NavLink to = "/" className ="nav-item" activeClassName = "active" exact>Головна</NavLink></li>
-        <li><NavLink to = "/About" className ="nav-item" activeClassName = "active" exact>Про нас</NavLink></li>
-        <li><NavLink to = "/Menu" className ="nav-item" activeClassName = "active" exact >Меню</NavLink></li>
-        <li><NavLink to = "/Contact" className ="nav-item" activeClassName = "active" exact>Контакти</NavLink></li>
+        <li><NavLink to = "/" className ="nav-item" activeclassname = "active" exact = "true">Головна</NavLink></li>
+        <li><NavLink to = "/About" className ="nav-item" activeclassname = "active" exact = "true">Про нас</NavLink></li>
+        <li><NavLink to = "/Menu" className ="nav-item" activeclassname = "active" exact = "true">Меню</NavLink></li>
+        <li><NavLink to = "/Contact" className ="nav-item" activeclassname = "active" exact = "true">Контакти</NavLink></li>
         <li>
           <div className = "nav-options">
-          <Link to = "/Menu"><button className = "nav-button">Замовити</button></Link>
-          <Link to = "/Menu"><button className = "nav-button">Бронювання</button></Link>
-          <Link to = "/Menu"><button className = "nav-cart"></button></Link>
+          <NavLink to = "/Menu"><button className = "nav-button">Бронювати</button></NavLink>
+          <NavLink to = "/Menu"><button className = "nav-cart"></button></NavLink>
           </div>
         </li>
       </ul>

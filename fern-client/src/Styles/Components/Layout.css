@@ -1,0 +1,23 @@
+.layout
+{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+.header
+{
+    height: 220px;
+    position:relative;
+    top: -125px;
+    background: url("../../Assets/Images/green6_edit.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position-y:-330px;
+    background-attachment: fixed;
+} 
+.home{height: 600px;}
+.social-icon
+{
+    width: 45px;
+    height: 45px;
+}

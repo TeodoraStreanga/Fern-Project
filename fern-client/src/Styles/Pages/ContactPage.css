@@ -1,0 +1,94 @@
+.contact-page
+{
+    display: flex;
+    flex-direction: column;
+}
+.contact-panel
+{
+    position: relative;
+    top: -100px;
+    width: 1400px;
+    border-top: dashed 3px  #3E4001;
+    border-bottom: dashed 3px  #3E4001;
+    align-self: center;
+
+    display:flex;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.map
+{
+    width:  700px;
+    height:  600px;
+    border: none;
+}
+.contact-block
+{
+    display:flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 700px;
+}
+.contact-block-header
+{
+    font-size: 50px;
+    font-weight:500;
+    color: #87c01f;
+    border-bottom: solid 3px #87c01f;
+    padding-bottom: 10px;
+}
+.contact-text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+    padding-left: 0;
+}
+.contact-item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+.contact-item-header 
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 30px;
+    color: #87c01f;
+}
+.contact-icon
+{
+    margin-top:5px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}
+.location
+{
+    background: url("../../Assets/Icons/place-marker-15395.png");
+    background-size: cover;
+    background-position: center;
+}
+.time
+{
+    background: url("../../Assets/Icons/circular-wall-clock-black-outline.png");
+    background-size: cover;
+    background-position: center;
+}
+.phone
+{
+    background: url("../../Assets/Icons/phone-6856.png");
+    background-size: cover;
+    background-position: center;
+}
+.mail
+{
+    background: url("../../Assets/Icons/mail-5888.png");
+    background-size: cover;
+    background-position: center;
+}
